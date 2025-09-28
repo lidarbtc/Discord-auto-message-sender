@@ -1,0 +1,12 @@
+[package]
+name = "Discord-auto-message-sender"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.47.1", features = ["full"] }
+twilight-http = "0.16.0"
+twilight-model = "0.16.0"
+dotenvy = "0.15.7"
+log = "0.4.28"
+chrono = "0.4.42"
